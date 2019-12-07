@@ -141,6 +141,7 @@ public class ZkCuratorServer {
 
     //设置数据
     public static void setData(CuratorFramework client, String path, String data) throws Exception {
+        if(null == client.checkExists().forPath(path)) return;
         client.setData().forPath(path, data.getBytes(Constants.Global.CHARSET_NAME));
     }
 

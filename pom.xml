@@ -6,7 +6,7 @@
 
     <groupId>org.itstack.middleware</groupId>
     <artifactId>schedule-spring-boot-starter</artifactId>
-    <version>1.0.0.RELEASE</version>
+    <version>1.0.2.RELEASE</version>
 
     <packaging>jar</packaging>
 
@@ -39,13 +39,6 @@
         </developer>
     </developers>
 
-    <properties>
-        <!-- Common libs -->
-        <commons-beanutils.version>1.8.3</commons-beanutils.version>
-        <fastjson.version>1.2.62</fastjson.version>
-        <curator.version>2.7.0</curator.version>
-    </properties>
-
     <distributionManagement>
         <snapshotRepository>
             <id>ossrh</id>
@@ -53,6 +46,12 @@
         </snapshotRepository>
     </distributionManagement>
 
+    <properties>
+        <!-- Common libs -->
+        <commons-beanutils.version>1.8.3</commons-beanutils.version>
+        <fastjson.version>1.2.62</fastjson.version>
+        <curator.version>2.7.0</curator.version>
+    </properties>
 
     <dependencies>
         <dependency>
