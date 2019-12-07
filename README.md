@@ -1,7 +1,5 @@
 # schedule-spring-boot-starter 分布式任务中间件
 
-## 中间件使用
-
 ### 1. 版本记录
 
 |  |  版本   |    发布日期      |   备注 |
@@ -84,3 +82,6 @@ public class DemoTaskThree {
 2. 启动控制平台：itstack-middleware-control，访问：http://localhost:7397/ 成功界面如下；*可以开启/关闭验证了！{功能还在完善}*
    ![微信公众号：bugstack虫洞栈 & 任务列表](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Z1emhlbmd3ZWkvZnV6aGVuZ3dlaS5naXRodWIuaW8vbWFzdGVyL2Fzc2V0cy9pbWFnZXMvcGljLWNvbnRlbnQvMjAxOS8xMS9pdHN0YWNrLW1pZGRsZXdhcmUtc2NoZWR1bGUtcmVsZWFzZS0wMS5wbmc?x-oss-process=image/format,png)
 
+### 7. 疑问解答
+- 微信公众号：bugstack虫洞栈
+- 个人微信号：monkeycode
