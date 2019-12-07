@@ -1,5 +1,20 @@
 # schedule-spring-boot-starter 分布式任务中间件
 
+
+>微信公众号：bugstack虫洞栈 | 沉淀、分享、成长，让自己和他人都能有所收获！
+分布式任务DcsSchedule中间件，Github地址：[https://github.com/fuzhengwei/schedule-spring-boot-starter](https://github.com/fuzhengwei/schedule-spring-boot-starter)
+分布式任务DcsSchedule控制台，Github地址：[https://github.com/fuzhengwei/itstack-middleware-control](https://github.com/fuzhengwei/itstack-middleware-control)
+欢迎⭐Star和使用，你用剑🗡、我用刀🔪，好的代码都很骚😏，望你不吝出招💨！
+
+## 中间件使用
+
+增强SpringBoot Schedule，开发中间件以zookeeper为注册中心扩展为分布式任务调度系统，接入方式接单易用，目前实现功能如下；
+
+- [x]  多机器部署任务
+- [x]  统一控制中心启停
+- [ ]  宕机灾备，自动启动执行
+- [ ]  实时检测任务执行信息：部署数量、任务总量、成功次数、失败次数、执行耗时等
+
 ### 1. 版本记录
 
 |  |  版本   |    发布日期      |   备注 |
@@ -20,7 +35,7 @@
 	 dataLogDir=D:\\Program Files\\apache-zookeeper-3.4.14\\logs
 	 ```
 
-4 打包部署控制平台
+4. 打包部署控制平台
   1. 下载地址：https://github.com/fuzhengwei/itstack-middleware-control.git
   2. 部署访问：http://localhost:7397
 
@@ -34,8 +49,7 @@
 </dependency>
 ```
 
-### 4. 引入分布式任务DcsSchedule @EnableDcsScheduling
-
+### 4. 引入分布式任务DcsSchedule 
 1. 与SpringBoot的Sceduling非常像，他的注解是；@EnableScheduling，尽可能降低使用难度
 2. 这个注解主要方便给我们自己的中间件一个入口，也是😏扒拉源码发现的可以这么干{我一直说好的代码都很骚气}
 
@@ -81,7 +95,6 @@ public class DemoTaskThree {
 1. 启动SpringBoot工程即可，autoStartup = true的会自动启动任务(任务是多线程并行执行的)
 2. 启动控制平台：itstack-middleware-control，访问：http://localhost:7397/ 成功界面如下；*可以开启/关闭验证了！{功能还在完善}*
    ![微信公众号：bugstack虫洞栈 & 任务列表](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Z1emhlbmd3ZWkvZnV6aGVuZ3dlaS5naXRodWIuaW8vbWFzdGVyL2Fzc2V0cy9pbWFnZXMvcGljLWNvbnRlbnQvMjAxOS8xMS9pdHN0YWNrLW1pZGRsZXdhcmUtc2NoZWR1bGUtcmVsZWFzZS0wMS5wbmc?x-oss-process=image/format,png)
+### 7. 其他
+如果在使用的过程中遇到什么问题，欢迎联系我，微信号：monkeycode！
 
-### 7. 疑问解答
-- 微信公众号：bugstack虫洞栈
-- 个人微信号：monkeycode
