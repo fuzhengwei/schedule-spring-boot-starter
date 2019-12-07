@@ -95,6 +95,7 @@ public class DemoTaskThree {
 1. 启动SpringBoot工程即可，autoStartup = true的会自动启动任务(任务是多线程并行执行的)
 2. 启动控制平台：itstack-middleware-control，访问：http://localhost:7397/ 成功界面如下；*可以开启/关闭验证了！{功能还在完善}*
    ![微信公众号：bugstack虫洞栈 & 任务列表](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Z1emhlbmd3ZWkvZnV6aGVuZ3dlaS5naXRodWIuaW8vbWFzdGVyL2Fzc2V0cy9pbWFnZXMvcGljLWNvbnRlbnQvMjAxOS8xMS9pdHN0YWNrLW1pZGRsZXdhcmUtc2NoZWR1bGUtcmVsZWFzZS0wMS5wbmc?x-oss-process=image/format,png)
+
 ### 7. 其他
 如果在使用的过程中遇到什么问题，欢迎联系我，微信号：monkeycode！
 
