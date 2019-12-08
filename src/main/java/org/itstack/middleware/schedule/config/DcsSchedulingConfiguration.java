@@ -81,7 +81,7 @@ public class DcsSchedulingConfiguration implements ApplicationContextAware, Bean
             init_server(applicationContext);
             //3. 启动任务
             init_task(applicationContext);
-            //4. 挂在节点
+            //4. 挂载节点
             init_node();
             //5. 心跳监听
             HeartbeatService.getInstance().startFlushScheduleStatus();
@@ -141,7 +141,7 @@ public class DcsSchedulingConfiguration implements ApplicationContextAware, Bean
         }
     }
 
-    //4. 挂在节点
+    //4. 挂载节点
     private void init_node() throws Exception {
         Set<String> beanNames = Constants.execOrderMap.keySet();
         for (String beanName : beanNames) {
