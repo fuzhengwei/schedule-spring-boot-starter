@@ -6,6 +6,7 @@
 - [详细文档(含视频)](https://mp.weixin.qq.com/s?__biz=MzIxMDAwMDAxMw==&mid=2650725132&idx=1&sn=158b797206873f276e427c283fe0da91&chksm=8f613aeeb816b3f867a61ebf33a13bb4d8e6b5b80a57f5fbcace9514935adfc8824f21f95a80&token=1107347402&lang=zh_CN#rd)
 - 分布式任务DcsSchedule中间件，Github地址：[https://github.com/fuzhengwei/schedule-spring-boot-starter](https://github.com/fuzhengwei/schedule-spring-boot-starter)
 - 分布式任务DcsSchedule控制台，Github地址：[https://github.com/fuzhengwei/itstack-middleware-control](https://github.com/fuzhengwei/itstack-middleware-control)
+- 分布式任务DcsSchedule案例工程，Github地址：[https://github.com/fuzhengwei/itstack-demo-springboot-helloworld](https://github.com/fuzhengwei/itstack-demo-springboot-helloworld)
 - 欢迎⭐Star和使用，你用剑🗡、我用刀🔪，好的代码都很骚😏，望你不吝出招💨！
 
 ## 中间件使用
