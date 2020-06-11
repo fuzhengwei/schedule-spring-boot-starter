@@ -48,7 +48,7 @@
 
     <properties>
         <!-- Common libs -->
-        <commons-beanutils.version>1.8.3</commons-beanutils.version>
+        <commons-beanutils.version>1.9.2</commons-beanutils.version>
         <fastjson.version>1.2.62</fastjson.version>
         <curator.version>2.7.0</curator.version>
     </properties>
